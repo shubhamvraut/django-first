@@ -5,3 +5,4 @@ from django.db import models
 class Event(models.Model):
     eventName=models.CharField(max_length=200)
     eventDate=models.CharField(max_length=100)
+    area=models.CharField(max_length=100)
